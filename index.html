@@ -42,5 +42,64 @@
         </div>
       </div>
     </nav>
+    <section
+      class="hero d-flex flex-column justify-content-center align-items-center text-center"
+    >
+      <div class="container">
+        <p class="hero-intro mb-2">- Hi, I’m Corey Lee —</p>
+        <h1 class="hero-title mb-3">
+          a Senior Computer Science Major<br />
+          with a focus on frontend technologies and IT work.
+        </h1>
+        <div class="hero-links">
+          <a href="#about" class="hero-link">→ About</a>
+          <span class="divider">|</span>
+          <a href="#projects" class="hero-link">→ Projects</a>
+          <span class="divider">|</span>
+          <a
+            href="#"
+            class="hero-link"
+            data-bs-toggle="modal"
+            data-bs-target="#resumeModal"
+          >
+            → Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Modal -->
+    <div
+      class="modal fade"
+      id="resumeModal"
+      tabindex="-1"
+      aria-labelledby="resumeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resumeModalLabel">
+              Corey Lee – Resume
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="ratio ratio-4x3">
+              <iframe
+                src="./assets/Corey_Lee_2025.pdf"
+                title="Corey Lee Resume"
+                class="resume-iframe"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
