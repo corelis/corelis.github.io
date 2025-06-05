@@ -1,0 +1,48 @@
+.hero {
+  padding: 6rem 1rem;
+  background-color: #ffffff;
+  color: #222222;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hero-intro {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 0.5rem;
+}
+
+.hero-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111111;
+  max-width: 800px;
+  margin: 0 auto 1rem auto;
+}
+
+.hero-blurb {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #444444;
+  max-width: 650px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.hero-links {
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.hero-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.75rem;
+}
+
+.hero-link:hover {
+  text-decoration: underline;
+}
