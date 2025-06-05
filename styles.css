@@ -46,3 +46,10 @@
 .hero-link:hover {
   text-decoration: underline;
 }
+
+.resume-iframe {
+  border: none;
+}
+.profile-img {
+  width: 300px;
+}
