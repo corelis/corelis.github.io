@@ -206,5 +206,167 @@
         </div>
       </div>
     </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <!-- Project 1 (Image on Left, Text on Right) -->
+    <div class="project-item d-flex flex-column flex-md-row align-items-center mb-5">
+      <div class="container">
+        <!-- Right-aligned heading -->
+        <h2 class="mb-5 text-end">Projects</h2>
+        <!-- Project 1 -->
+        <div class="project-item d-flex flex-column flex-md-row align-items-center mb-5">
+          <!-- Thumbnail (clicking it opens #project1Modal) -->
+          <div class="project-image col-12 col-md-4 mb-3 mb-md-0">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#project1Modal">
+              <img
+                src="./assets/MACS-project.png"
+                alt="Screenshot of Project 1"
+                class="img-fluid rounded"
+              />
+            </a>
+          </div>
+    
+          <!-- Description -->
+          <div class="project-desc col-12 col-md-8 ps-md-4">
+            <h3 class="project-title">Maseeh Access Control System</h3>
+            <p class="project-text">
+                Our senior capstone project. Using React as our frontend, Python as our backend. 
+                We were tasked with implementing a system for the Maseeh College of Engineering to 
+                make access control of labs an easier process. I was the lead frontend engineer and 
+                assistant team lead throughout the project. (You will need openVPN to access)
+            </p>
+            <a href="#" class="project-link">→ macs.cecs.pdx.edu</a>
+          </div>
+        </div>
+        
+            <!-- Modal for Project 1 -->
+            <div
+              class="modal fade"
+              id="project1Modal"
+              tabindex="-1"
+              aria-labelledby="project1ModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content bg-transparent border-0">
+                  <div class="modal-body p-0">
+                    <button
+                      type="button"
+                      class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                    <img
+                      src="./assets/MACS-project.png"
+                      alt="Larger view of Maseeh Access Control System"
+                      class="img-fluid rounded"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+       <!-- Project 2 -->
+       <div
+       class="project-item d-flex flex-column flex-md-row-reverse align-items-center mb-5"
+     >
+       <div class="project-image col-12 col-md-4 mb-3 mb-md-0">
+         <a href="#" data-bs-toggle="modal" data-bs-target="#project2Modal">
+           <img
+             src="./assets/leejigs.png"
+             alt="Screenshot of Project 2"
+             class="img-fluid rounded"
+           />
+         </a>
+       </div>
+       <div class="project-desc col-12 col-md-8 pe-md-4">
+         <h3 class="project-title">LeeJigs</h3>
+         <p class="project-text">
+           My dad loves making jigs for our salmon fishing trips. He has had much success fishing with them, 
+           so what better way to assist fellow fishermen then by selling his own jigs! That is how I 
+           came up with this idea of opening his very own shop to sell his personalized work!
+         </p>
+         <a href="https://github.com/LisCore/LeeJigs#" class="project-link">→ view the code</a>
+       </div>
+     </div>
+ 
+     <!-- Modal for Project 2 -->
+     <div
+       class="modal fade"
+       id="project2Modal"
+       tabindex="-1"
+       aria-labelledby="project2ModalLabel"
+       aria-hidden="true"
+     >
+       <div class="modal-dialog modal-dialog-centered modal-lg">
+         <div class="modal-content bg-transparent border-0">
+           <div class="modal-body p-0">
+             <button
+               type="button"
+               class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+               data-bs-dismiss="modal"
+               aria-label="Close"
+             ></button>
+             <img
+               src="./assets/leejigs.png"
+               alt="Larger view of Project 2"
+               class="img-fluid rounded"
+             />
+           </div>
+         </div>
+       </div>
+     </div>
+ 
+     <!-- Project 3 -->
+     <div class="project-item d-flex flex-column flex-md-row align-items-center mb-5">
+       <div class="project-image col-12 col-md-4 mb-3 mb-md-0">
+         <a href="#" data-bs-toggle="modal" data-bs-target="#project3Modal">
+           <img
+             src="./assets/yugivoice.png"
+             alt="Screenshot of Yu-Gi-Voice project"
+             class="img-fluid rounded"
+           />
+         </a>
+       </div>
+       <div class="project-desc col-12 col-md-8 ps-md-4">
+         <h3 class="project-title">Yu-Gi-Voice</h3>
+         <p class="project-text">
+           Created a voice assistant using JavaScript to pull data from Yu-Gi-Oh data base. Once a card was fetched,
+           the assistant would read the effect of the card and would be stored onto the page for quick access to read a cards effect.
+           This was aimed to assist with accessibility and testing out API calls, database connections, and utilizing JS voice assistance.
+         </p>
+         <a href="https://github.com/LisCore/Yugioh-Helper" class="project-link">→ Github Repo</a>
+       </div>
+     </div>
+ 
+     <!-- Modal for Project 3 -->
+     <div
+       class="modal fade"
+       id="project3Modal"
+       tabindex="-1"
+       aria-labelledby="project3ModalLabel"
+       aria-hidden="true"
+     >
+       <div class="modal-dialog modal-dialog-centered modal-lg">
+         <div class="modal-content bg-transparent border-0">
+           <div class="modal-body p-0">
+             <button
+               type="button"
+               class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+               data-bs-dismiss="modal"
+               aria-label="Close"
+             ></button>
+             <img
+               src="./assets/yugivoice.png"
+               alt="Larger view of Project 3"
+               class="img-fluid rounded"
+             />
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
   </body>
 </html>
